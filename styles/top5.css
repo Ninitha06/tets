@@ -1,0 +1,146 @@
+
+/* My Top 5 */
+
+body{
+  background-color: aliceblue;
+}
+
+.main {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "head" "maincontent" "foot";
+  grid-template-columns: 100%;
+  grid-template-rows: 12% auto 10%;
+}
+
+.topheader {
+  grid-area: head;
+  padding-left: 42%;
+  padding-right: auto;
+  background-color: rgb(144, 148, 178);
+}
+
+.maincontent {
+  grid-area: maincontent;
+}
+
+.menperf {
+  display: grid;
+  grid-template-areas: "Dior Eter Yves Blck Hugo";
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 100%;
+  justify-items: center;
+}
+
+.dior {
+  grid-area: Dior;
+}
+
+.eternity {
+  grid-area: Eter;
+}
+
+.yves {
+  grid-area: Yves;
+}
+
+.black {
+  grid-area: Blck;
+}
+
+.hugo {
+  grid-area: Hugo;
+}
+
+
+.wperf {
+  display: grid;
+  grid-template-areas: "Vik Tom Ari Opium Gucci";
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 100%;
+  justify-items: center;
+}
+
+
+.viktor {
+  grid-area: Vik;
+}
+
+.tom {
+  grid-area: Tom;
+}
+
+.ariana {
+  grid-area: Ari;
+}
+
+.opium {
+  grid-area: Opium;
+}
+
+.gucci {
+  grid-area: Gucci;
+}
+
+.food {
+  display: grid;
+  grid-template-areas: "Fish Bro Bee Spi Alm";
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 100%;
+  justify-items: center;
+}
+
+
+.fish {
+  grid-area: Fish;
+}
+
+.broccoli {
+  grid-area: Bro;
+}
+
+.beets {
+  grid-area: Bee;
+}
+
+.spinach {
+  grid-area: Spi;
+}
+
+.alm {
+  grid-area: Alm;
+}
+
+.footnote {
+    border:dotted;
+    border-radius: 20px;
+    padding-left: 2%;
+    align-self: center;
+  grid-area: foot;
+}
+
+.format {
+  margin: 5px;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color:lightgrey;
+}
+
+h5 {
+  text-align: center;
+}
+
+h3{
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.imgStyle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:150px;
+  width:150px;
+}
